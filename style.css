@@ -156,11 +156,16 @@ a:hover {
   #about {
     position: relative;
   }
+  
+  .about, .details-containers {
+    text-align: right;
+  }
 
   .about-containers{
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    text-align: right;
   }
 
   .about-details-container {
@@ -241,4 +246,33 @@ a:hover {
 
   article .icon {
     cursor: default;
+  }
+
+  /* Project Section */
+
+  #project {
+    position: relative;
+  }
+
+  .project, .details-container {
+    text-align: center;
+  }
+
+  
+  .project-img {
+    border-radius: 2rem;
+    width: 350px;
+    height: 350px;
+  }
+
+  .project-title {
+    margin: 1rem;
+    color: black;
+    text-align: center;
+  }
+
+  .project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+    
   }
