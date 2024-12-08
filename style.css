@@ -57,6 +57,7 @@ a:hover {
 }
 
 .logo {
+    font-weight: 600;
     font-size: 1.5rem;
 }
 
@@ -145,4 +146,51 @@ a:hover {
 }
 
 /* Sections */
+
+.btn-container {
+    gap: 1rem;
+  }
+
+  /* About Section */
+
+  #about {
+    position: relative;
+  }
+
+  .about-containers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .about-details-container {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .about-containers, .about-details-container {
+    display: flex;
+    margin-top: 1.5rem;
+  }
+
+  .arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+  }
+
+  .details-container {
+    padding: 1.5rem;
+    flex: 1;
+    text-align: right;
+
+  }
+
+  .text-container {
+    margin-top: 1.5rem;
+  }
+
+  .text-container p{
+    text-align: justify;
+  }
 
