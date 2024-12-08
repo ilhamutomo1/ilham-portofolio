@@ -157,15 +157,11 @@ a:hover {
     position: relative;
   }
   
-  .about, .details-containers {
-    text-align: right;
-  }
 
   .about-containers{
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    text-align: right;
   }
 
   .about-details-container {
@@ -275,4 +271,50 @@ a:hover {
     color: black;
     border-color: rgb(163, 163, 163);
     
+  }
+
+  /* Contact Section */
+
+  #contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+  }
+
+  .contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    background: rgb(250, 250, 250);
+    margin: 1rem auto;
+    padding: 0.5rem;
+  }
+
+  .contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+  }
+
+  .contact-info-container p {
+    font-size: larger;
+  }
+
+  .contact-icon {
+    cursor: default;
+  }
+
+  .contact_text_p1 {
+    text-align: center;
+  }
+
+  .contact-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .email-icon {
+    height: 2.5rem;
   }
